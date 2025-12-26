@@ -26,4 +26,4 @@ If you use this work, please cite:
 ## 🧪 Requirements
 - Python ≥ 3.9
 - PyTorch
-- ESM / NetSurfP / FoldX
+- ESM3 / NetSurfP / AMPDB v1 database
