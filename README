@@ -1,0 +1,30 @@
+# HNP-4 MSA-Classifier Mask Workflow
+
+This repository contains code, data, and figures for the design and analysis
+of HNP-4 antimicrobial peptide variants using an MSA-Classifier-Mask strategy
+and comparison with ESM-3 generative models.
+
+## 📁 Repository Structure
+├── code/              # Python scripts and notebooks
+├── data/              # CSV / FASTA files
+├── figures/           # Plots and images for the paper
+├── notebooks/         # Google Colab notebooks
+├── results/           # Processed outputs
+└── README.md
+
+## 🚀 Usage
+- Run notebooks in `notebooks/` using Google Colab
+- Core analysis scripts are under `code/`
+
+## 📊 Data
+- `data/variants_1M.csv` – Generated peptide variants
+- `data/final_filtered.csv` – Final screened peptides
+
+## 📄 Citation
+If you use this work, please cite:
+> Sleiman Bishara et al., *In preparation*
+
+## 🧪 Requirements
+- Python ≥ 3.9
+- PyTorch
+- ESM / NetSurfP / FoldX
