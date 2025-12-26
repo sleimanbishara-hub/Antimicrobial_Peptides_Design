@@ -8,7 +8,6 @@ and comparison with ESM-3 generative models.
 ├── code/              # Python scripts and notebooks
 ├── data/              # CSV / FASTA files
 ├── figures/           # Plots and images for the paper
-├── notebooks/         # Google Colab notebooks
 ├── results/           # Processed outputs
 └── README.md
 
