@@ -28,9 +28,24 @@ If files are missing or paths differ, the pipeline will fail.
 
 ##### 1️⃣ Files INCLUDED in this GitHub repository
 
-This repository includes a Files/ directory containing all files required to run the pipeline.
+This repository includes a `Files/` directory containing all files required to run the pipeline.
 
 Note :you must **manually upload the following files from `Files/` into your Google Drive root**: drive/My Drive/
 
+
+| File | Description |
+|----|----|
+| `AMPDB_Master_Dataset.fasta` | AMP reference database used for BLAST |
+| `AMPSorter_predictor_corrected_fast.py` | AMPSorter inference script |
+| `model.pt` | Trained AMPSorter PyTorch model |
+| `SOV_refine.pl` | Perl script for Q8 SOV calculation |
+
+✅ After upload, the paths **must be exactly**:
+
+```text
+/content/drive/My Drive/AMPDB_Master_Dataset.fasta
+/content/drive/My Drive/AMPSorter_predictor_corrected_fast.py
+/content/drive/My Drive/model.pt
+/content/drive/My Drive/SOV_refine.pl
 
 
