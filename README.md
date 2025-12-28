@@ -14,6 +14,6 @@ The pipeline is designed to run **entirely in Google Colab** and relies on **ext
 
 ---
 
-## ⚠️ IMPORTANT — Google Drive Is Required
+## IMPORTANT — Google Drive Is Required
 
-This pipeline **expects specific files to be located in Google Drive** under: My Drive/ 
+This pipeline **expects specific files to be located in Google Drive** under: drive/My Drive/ 
