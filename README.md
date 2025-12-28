@@ -56,7 +56,3 @@ Users should download all contents of the `Files/` directory and upload them to 
 /content/drive/My Drive/netsurfp-3.0.Linux.zip
 /content/drive/My Drive/tango_x86_64_release
 /content/drive/My Drive/Protein-Sol/
-
-
-
-
