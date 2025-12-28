@@ -28,9 +28,23 @@ If files are missing or paths differ, the pipeline will fail.
 
 ##### 1️⃣ Files Included in this GitHub repository
 
-This repository includes a `Files/` directory containing all core files required to run the pipeline.
-In addition, the `Files/` directory also provides packaged external tools (netsurfp-3.0.Linux.zip, tango_x86_64_release, and Protein-Sol/) for user convenience.
-Users should download all contents of the `Files/` directory and upload them to their Google Drive root (My Drive/) before running the pipeline in Google Colab.
+
+This repository contains a `Files/` directory with all core scripts and auxiliary resources required to run the pipeline.
+
+Due to licensing and redistribution restrictions, **NetSurfP-3.0 is not included in this repository**.  
+Users must download **NetSurfP-3.0 (Linux version)** directly from the official website:
+
+https://services.healthtech.dtu.dk/services/NetSurfP-3.0/
+
+After download, the file **`netsurfp-3.0.Linux.zip`** should be uploaded manually to the root of the user’s Google Drive (`My Drive/`).
+
+In addition, the `Files/` directory includes other external tools provided for user convenience, such as:
+- `tango_x86_64_release`
+- `Protein-Sol/`
+
+Before running the pipeline in Google Colab, users should ensure that:
+- All contents of the `Files/` directory are uploaded to `My Drive/`
+- `netsurfp-3.0.Linux.zip` (downloaded separately) is also present in `My Drive/`
 
 
 | File | Description |
