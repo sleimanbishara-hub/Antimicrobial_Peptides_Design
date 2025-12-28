@@ -35,7 +35,7 @@ Note :you must **manually upload the following files from `Files/` into your Goo
 
 | File | Description |
 |----|----|
-| `AMPDB_Master_Dataset.fasta` | AMP reference database used for BLAST |
+| `AMPDB_Master_Dataset.fasta` | AMPDB v1-Anti-microbial Peptide Database version 1 |
 | `AMPSorter_predictor_corrected_fast.py` | AMPSorter inference script |
 | `model.pt` | Trained AMPSorter PyTorch model |
 | `SOV_refine.pl` | Perl script for Q8 SOV calculation |
