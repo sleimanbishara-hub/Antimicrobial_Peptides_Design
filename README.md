@@ -44,7 +44,7 @@ In addition, the `Files/` directory includes other external tools provided for u
 
 Before running the pipeline in Google Colab, users should ensure that:
 - All contents of the `Files/` directory are uploaded to `My Drive/`
-- `netsurfp-3.0.Linux.zip` (downloaded separately) is also present in `My Drive/`
+- `netsurfp-3.0.Linux.zip` (downloaded separately) is also uploaded to `My Drive/`
 
 
 | File | Description |
