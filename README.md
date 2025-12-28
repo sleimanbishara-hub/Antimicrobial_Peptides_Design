@@ -26,7 +26,7 @@ If files are missing or paths differ, the pipeline will fail.
 
 ## 📁 Required Files and Where to Put Them
 
-##### 1️⃣ Files INCLUDED in this GitHub repository
+##### 1️⃣ Files Included in this GitHub repository
 
 This repository includes a `Files/` directory containing all files required to run the pipeline.
 
