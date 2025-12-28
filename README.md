@@ -37,10 +37,11 @@ Users should download all contents of the `Files/` directory and upload them to 
 |------|------------|
 | AMPDB_Master_Dataset.fasta | AMP reference database for BLAST |
 | AMPSorter_predictor_corrected_fast.py | AMPSorter inference script |
-| model.pt | Trained AMPSorter model |
+| model.pt | Trained AMPSorter PyTorch model |
+| requirements.txt | Python dependencies required for AMPSorter |
 | SOV_refine.pl | Perl script for Q8 SOV calculation |
 | netsurfp-3.0.Linux.zip | NetSurfP-3.0 secondary structure predictor |
-| tango_x86_64_release | TANGO aggregation predictor|
+| tango_x86_64_release | TANGO aggregation predictor  |
 | Protein-Sol/ | Protein-Sol solubility predictor |
 
 
@@ -51,9 +52,11 @@ Users should download all contents of the `Files/` directory and upload them to 
 /content/drive/My Drive/AMPSorter_predictor_corrected_fast.py
 /content/drive/My Drive/model.pt
 /content/drive/My Drive/SOV_refine.pl
+/content/drive/My Drive/requirements.txt
 /content/drive/My Drive/netsurfp-3.0.Linux.zip
 /content/drive/My Drive/tango_x86_64_release
 /content/drive/My Drive/Protein-Sol/
+
 
 
 
