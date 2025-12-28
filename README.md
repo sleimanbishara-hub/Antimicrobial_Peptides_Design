@@ -17,3 +17,17 @@ The pipeline is designed to run **entirely in Google Colab** and relies on **ext
 ## IMPORTANT — Google Drive Is Required
 
 This pipeline **expects specific files to be located in Google Drive** under: drive/My Drive/ 
+
+
+
+If files are missing or paths differ, the pipeline will fail.
+
+---
+
+## 📁 Required Files and Where to Put Them
+
+### 1️⃣ Files INCLUDED in this GitHub repository
+
+This repository contains a folder: Files
+
+
