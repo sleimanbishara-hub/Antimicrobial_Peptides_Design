@@ -1,29 +1,20 @@
-# HNP-4 MSA-Classifier Mask Workflow
+# 🧬 MSA-Classifier Mask Pipeline for Antimicrobial Peptide Design
 
-This repository contains code, data, and figures for the design and analysis
-of HNP-4 antimicrobial peptide variants using an MSA-Classifier-Mask strategy
-and comparison with ESM-3 generative models.
+This repository provides a **Google Colab–ready pipeline** for the design, screening, and structural filtering of antimicrobial peptide (AMP) variants.
 
-## 📁 Repository Structure
-├── code/              # Python scripts and notebooks
-├── data/              # CSV / FASTA files
-├── figures/           # Plots and images for the paper
-├── results/           # Processed outputs
-└── README.md
+The workflow integrates:
+- BLAST against AMPDB
+- Multiple sequence alignment (MSA)–based conservation
+- Mask enumeration and variant generation
+- AMPSorter activity prediction
+- NetSurfP-3.0 secondary structure prediction
+- Q8-based SOV structural filtering
 
-## 🚀 Usage
-- Run notebooks in `notebooks/` using Google Colab
-- Core analysis scripts are under `code/`
+The pipeline is designed to run **entirely in Google Colab** and relies on **external tools and datasets stored in Google Drive**.
 
-## 📊 Data
-- `data/variants_1M.csv` – Generated peptide variants
-- `data/final_filtered.csv` – Final screened peptides
+---
 
-## 📄 Citation
-If you use this work, please cite:
-> Sleiman Bishara et al., *In preparation*
+## ⚠️ IMPORTANT — Google Drive Is Required
 
-## 🧪 Requirements
-- Python ≥ 3.9
-- PyTorch
-- ESM3 / NetSurfP / AMPDB v1 database
+This pipeline **expects specific files to be located in Google Drive** under:
+
