@@ -3,7 +3,7 @@
 This repository provides a **Google Colab–ready pipeline** for the design, screening, and structural filtering of antimicrobial peptide (AMP) variants.
 
 The workflow integrates:
-- BLAST against AMPDB
+- BLAST against AMPDBv1 Database
 - Multiple sequence alignment (MSA)–based conservation
 - Mask enumeration and variant generation
 - AMPSorter activity prediction
