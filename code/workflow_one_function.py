@@ -1052,9 +1052,3 @@ res_test = msa_classifier_mask_pipeline(
     run_tango=False,
     run_proteinsol=False,
 )
-
-!echo "==== netsurfp_out tree ===="
-!find /content/hnp4_sanity_test/netsurfp_out -maxdepth 4 -type f
-
-!echo "==== Searching for NSP3 outputs ===="
-!find /content -type f \( -name "*.json" -o -name "*.out" \) | head -n 50
