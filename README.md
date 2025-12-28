@@ -24,21 +24,25 @@ If files are missing or paths differ, the pipeline will fail.
 
 ---
 
-## 📁 Required Files and Where to Put Them
+## 📁 Required Files
 
 ##### 1️⃣ Files Included in this GitHub repository
 
-This repository includes a `Files/` directory containing all files required to run the pipeline.
-
-Note :you must **manually upload the following files from `Files/` into your Google Drive root**: drive/My Drive/
+This repository includes a `Files/` directory containing all core files required to run the pipeline.
+In addition, the `Files/` directory also provides packaged external tools (netsurfp-3.0.Linux.zip, tango_x86_64_release, and Protein-Sol/) for user convenience.
+Users should download all contents of the `Files/` directory and upload them to their Google Drive root (My Drive/) before running the pipeline in Google Colab.
 
 
 | File | Description |
-|----|----|
-| `AMPDB_Master_Dataset.fasta` | AMPDB v1-Anti-microbial Peptide Database version 1 |
-| `AMPSorter_predictor_corrected_fast.py` | AMPSorter inference script |
-| `model.pt` | Trained AMPSorter PyTorch model |
-| `SOV_refine.pl` | Perl script for Q8 SOV calculation |
+|------|------------|
+| AMPDB_Master_Dataset.fasta | AMP reference database for BLAST |
+| AMPSorter_predictor_corrected_fast.py | AMPSorter inference script |
+| model.pt | Trained AMPSorter model |
+| SOV_refine.pl | Perl script for Q8 SOV calculation |
+| netsurfp-3.0.Linux.zip | NetSurfP-3.0 secondary structure predictor |
+| tango_x86_64_release | TANGO aggregation predictor|
+| Protein-Sol/ | Protein-Sol solubility predictor |
+
 
 ✅ After upload, the paths **must be exactly**:
 
@@ -47,5 +51,9 @@ Note :you must **manually upload the following files from `Files/` into your Goo
 /content/drive/My Drive/AMPSorter_predictor_corrected_fast.py
 /content/drive/My Drive/model.pt
 /content/drive/My Drive/SOV_refine.pl
+/content/drive/My Drive/netsurfp-3.0.Linux.zip
+/content/drive/My Drive/tango_x86_64_release
+/content/drive/My Drive/Protein-Sol/
+
 
 
