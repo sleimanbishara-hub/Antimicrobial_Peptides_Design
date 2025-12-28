@@ -26,8 +26,11 @@ If files are missing or paths differ, the pipeline will fail.
 
 ## 📁 Required Files and Where to Put Them
 
-### 1️⃣ Files INCLUDED in this GitHub repository
+# 1️⃣ Files INCLUDED in this GitHub repository
 
 This repository contains a folder: Files
+
+You must **manually upload the following files from `Files/` into your Google Drive root**: drive/My Drive/
+
 
 
