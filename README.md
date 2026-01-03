@@ -108,7 +108,5 @@ For user convenience, the following tools are included directly in the `Files/` 
 ---
 
 ## 🚀 Notes
-
-- This design avoids GitHub file size limits and ensures **full reproducibility**
 - The pipeline is optimized for **Google Colab GPU environments**
 - Users are strongly advised **not to modify directory names or paths**
