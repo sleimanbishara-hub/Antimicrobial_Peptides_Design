@@ -14,7 +14,7 @@ The pipeline is designed to run **entirely in Google Colab** and relies on **ext
 
 ---
 
-## ⚠️ IMPORTANT — Google Drive Is Required
+##  IMPORTANT — Google Drive Is Required
 
 This pipeline **expects specific files to be located in Google Drive** under:
 
@@ -107,6 +107,8 @@ For user convenience, the following tools are included directly in the `Files/` 
 
 ---
 
-## 🚀 Notes
+## Notes
 - The pipeline is optimized for **Google Colab GPU environments**
 - Users are strongly advised **not to modify directory names or paths**
+
+## Example Usage 
